@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tesla {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./img/Desktop-ModelY.jpg);
+    background-position: -50% 50%;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.img {
+    height: 8vh;
+    width: 11%;
+    display: inline-block;
+    /* border: 1px solid #000; */
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.model {
+    height: 6vh;
+    width: 47%;
+    /* border: 1px solid #000; */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 11%;
+    margin-top: 10px;
+    padding: .5%;
+}
+
+.model>ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 23px;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.shop {
+    height: 6vh;
+    width: 20%;
+    /* border: 1px solid #000; */
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 10px;
+    vertical-align: top
+}
+
+.shop>ul li {
+    list-style: none;
+    margin-top: 8px;
+    font-size: 13px;
+    margin-left: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.os {
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    /* border: 1px solid; */
+    /* background-color: gray; */
+    /* text-align: center; */
+}
+
+.os:hover {
+    background-color: rgba(105, 105, 105, 0.211);
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.os1 {
+    height: 30px;
+    width: 110px;
+    /* border: 1px solid #000; */
+    display: inline-block;
+
+}
+
+.os1:hover {
+    background-color: rgba(105, 105, 105, 0.211);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.os2 {
+    height: 30px;
+    width: 60px;
+    /* margin-left: 10px; */
+    /* border: 1px solid #000; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.os2:hover {
+    background-color: rgba(105, 105, 105, 0.211);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.os3 {
+    height: 30px;
+    width: 80px;
+    /* border: 1px solid #000; */
+    display: inline-block;
+
+}
+
+.os3:hover {
+    background-color: rgba(105, 105, 105, 0.211);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.demo {
+    height: 75vh;
+    width: 36%;
+    /* border: 1px solid #000; */
+    margin-left: 31%;
+    margin-top: 3%;
+}
+
+.y {
+    height: 30%;
+    margin: auto;
+    width: 40%;
+    /* border: 1px solid #000; */
+}
+
+.y>h1 {
+    /* text-align: center; */
+    margin: 6% 18%;
+    font-size: 32px;
+}
+
+.y>p {
+    margin: 2% 6%;
+    /* cursor: pointer; */
+}
+
+.order {
+    height: 8%;
+    width: 49%;
+    /* border: 1px solid #000; */
+    margin-top: 60%;
+    display: inline-block;
+    vertical-align: top;
+    /* font-size: 20px; */
+}
+
+.order>button {
+    height: 100%;
+    width: 100%;
+    background-color: #3E3F44;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    /* border: 1px solid #00AADF; */
+    transition: .5s;
+    border: none;
+}
+
+/* .order>button:hover {
+    background-color: #00AADF;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s;
+} */
+.view {
+    height: 8%;
+    width: 49%;
+    /* border: 1px solid #000; */
+    margin-top: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.view>button {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: gray;
+    font-weight: 500;
+    font-size: 13px;
+    /* border: 1px solid #00AADF; */
+    transition: .5s;
+    border: none;
+}
+
+.img1 {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./img/M3-Homepage-Desktop-LHD.jpg);
+    background-position: -50% 50%;
+    background-size: cover;
+    padding: 1px;
+    /* background-attachment: fixed; */
+}
+.img2{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./img/ali.jpg);
+    background-position: -50% 50%;
+    background-size: cover;
+    padding: 1px;
+    /* background-attachment: fixed; */
+}
+.img3{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./img/Homepage-Model-X-Desktop-LHD.jpg);
+    background-position: -50% 50%;
+    background-size: cover;
+    padding: 1px;
+    /* background-attachment: fixed; */
+}
+.img4{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./img/_25-HP-SolarPanels-D.jpg);
+    background-position: -50% 50%;
+    background-size: cover;
+    padding: 1px;
+    /* background-attachment: fixed; */
+}
+.img5{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./img/Homepage-SolarRoof-Desktop-Global.jpg);
+    background-position: -50% 50%;
+    background-size: cover;
+    padding: 1px;
+    /* background-attachment: fixed; */
+}
+.img6{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-image: url(./img/dd739764-bcaa-4263-9488-8c73bc9fb046.jpg);
+    background-position: -50% 50%;
+    background-size: cover;
+    padding: 1px;
+    /* background-attachment: fixed; */
+}
